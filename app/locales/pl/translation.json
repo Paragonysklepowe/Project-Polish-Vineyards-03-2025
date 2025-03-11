@@ -1,0 +1,10 @@
+{
+  // ... existing translations ...
+  "feedback": {
+    "title": "Prześlij Opinię",
+    "rating": "Jak oceniasz swoje doświadczenie?",
+    "comments": "Twoje uwagi lub sugestie",
+    "submit": "Prześlij Opinię",
+    "thankYou": "Dziękujemy za opinię! Cenimy Twoje uwagi."
+  }
+}

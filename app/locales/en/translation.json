@@ -1,0 +1,10 @@
+{
+  // ... existing translations ...
+  "feedback": {
+    "title": "Send Feedback",
+    "rating": "How would you rate your experience?",
+    "comments": "Your comments or suggestions",
+    "submit": "Submit Feedback",
+    "thankYou": "Thank you for your feedback! We appreciate your input."
+  }
+}

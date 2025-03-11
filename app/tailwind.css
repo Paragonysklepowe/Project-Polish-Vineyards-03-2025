@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-wine-background dark:bg-wine-dark text-wine-text;
+  
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+.navbar {
+  @apply bg-wine-primary text-white shadow-lg;
+}
+
+.btn-primary {
+  @apply bg-wine-secondary text-white px-6 py-2 rounded-lg hover:bg-wine-accent transition-colors;
+}
+
+.card {
+  @apply bg-white dark:bg-wine-dark rounded-lg shadow-md overflow-hidden;
+}
+
+.hero-section {
+  @apply bg-gradient-to-r from-wine-primary to-wine-secondary text-white py-20;
+}
+
+.footer {
+  @apply bg-wine-dark text-wine-light py-8;
+}
